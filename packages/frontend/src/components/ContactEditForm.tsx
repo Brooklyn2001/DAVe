@@ -248,8 +248,8 @@ export default function ContactEditForm({
                 ['given', 'First'],
                 ['family', 'Last'],
                 ['middle', 'Middle'],
-                ['prefix', 'Prefix (Dr., Mr., …)'],
-                ['suffix', 'Suffix (Jr., III, …)'],
+//                ['prefix', 'Prefix (Dr., Mr., …)'],
+//                ['suffix', 'Suffix (Jr., III, …)'],
               ] as const).map(([field, placeholder]) => (
                 <div key={field}>
                   <label className={labelCls}>{placeholder}</label>
